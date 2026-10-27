@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>EDADES</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        th, td {
+            border: 2px solid #777;
+            padding: 12px 15px;
+        }
+        .edades { background-color: #BBBBFF; }
+        .hombres-principal { background-color: #AAFFAA; }
+        .hombres-secundario { background-color: #BBFFBB; }
+        .mujeres-principal { background-color: #FFBBBB; }
+        .mujeres-secundario { background-color: #FFCCCC; }
+        .celda-principal { font-size: 18px; }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                
+                <th rowspan="2" scope="col" class="edades celda-principal">Grupos de edades</th>
+                
+                <th colspan="2" scope="colgroup" class="hombres-principal celda-principal">Hombres</th>
+                <th colspan="2" scope="colgroup" class="mujeres-principal celda-principal">Mujeres</th>
+            </tr>
+            <tr>
+                <th scope="col" class="hombres-principal">Num</th>
+                <th scope="col" class="hombres-principal">%</th>
+                <th scope="col" class="mujeres-principal">Num</th>
+                <th scope="col" class="mujeres-principal">%</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               
+                <th scope="row" class="edades">8-16</th>
+                <td class="hombres-secundario">16</td>
+                <td class="hombres-secundario">14.5</td>
+                <td class="mujeres-secundario">10</td>
+                <td class="mujeres-secundario">9</td>
+            </tr>
+            <tr>
+                <th scope="row" class="edades">17-23</th>
+                <td class="hombres-secundario">8</td>
+                <td class="hombres-secundario">7</td>
+                <td class="mujeres-secundario">13</td>
+                <td class="mujeres-secundario">11.5</td>
+            </tr>
+            <tr>
+                <th scope="row" class="edades">24-38</th>
+                <td class="hombres-secper">15</td>
+                <td class="hombres-secundario">14</td>
+                <td class="mujeres-secundario">8</td>
+                <td class="mujeres-secundario">7</td>
+            </tr>
+            <tr>
+                <th scope="row" class="edades">39-56</th>
+                <td class="hombres-secundario">21</td>
+                <td class="hombres-secundario">19</td>
+                <td class="mujeres-secundario">19</td>
+                <td class="mujeres-secundario">17</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
